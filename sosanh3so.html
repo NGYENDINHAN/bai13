@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let arrn=[];
+        let number =+prompt("mời bạn nhập số");
+        while (arrn.length <3){
+            if (Number.isInteger(number)) {
+                if(arrn.indexOf(number)==-1)
+                  arrn.push(number);
+            }else{number=+prompt("mời bạn nhập sô thứ 2");
+            
+
+            }else{
+                number  = + prompt("Nhập lại số");
+            }
+               
+        }
+        console.log("mời nhâp lại số");
+    </script>
+</body>
+</html>
